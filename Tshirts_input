@@ -1,0 +1,12 @@
+int in_Tshirts(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Printed"<<endl;
+                        cout<<"2. Striped"<<endl;
+                        cout<<"3. Solids"<<endl;
+                        cout<<"4. Polos"<<endl;
+                        cout<<"Enter the choice(1-4)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+                        }
