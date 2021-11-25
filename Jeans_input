@@ -1,0 +1,62 @@
+int in_Pfit(){
+               int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Super Skinny"<<endl;
+                        cout<<"2. Slim fit"<<endl;
+                        cout<<"3. Straight fit"<<endl;
+                        cout<<"4. Boyfriend Jeans"<<endl;
+                        cout<<"5. Bootcut & Flared"<<endl;
+                        cout<<"6. Skinny"<<endl;
+                        cout<<"7. Jeggings"<<endl;
+                        cout<<"Enter the choice(1-7)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+
+}
+int in_Cc(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Distressed"<<endl;
+                        cout<<"2. Slashed Knees"<<endl;
+                        cout<<"3. Cropped"<<endl;
+                        cout<<"4. High waist"<<endl;
+                        cout<<"5. Clean black"<<endl;
+                        cout<<"6. Stretchable"<<endl;
+                        cout<<"7. Joggers"<<endl;
+                        cout<<"8. Mom Jeans"<<endl;
+                        cout<<"Enter the choice(1-8)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+                    }
+int in_Rise(){
+
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. High"<<endl;
+                        cout<<"2. Mid"<<endl;
+                        cout<<"3. Rise"<<endl;
+                        cout<<"Enter the choice(1-3)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d; 
+}
+int in_Color(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Dark Blue"<<endl;
+                        cout<<"2. Navy Blue"<<endl;
+                        cout<<"3. Black"<<endl;
+                        cout<<"4. Grey"<<endl;
+                        cout<<"5. Charcoal"<<endl;
+                        cout<<"6. White"<<endl;
+                        cout<<"7. Coloured"<<endl;
+                        cout<<"8. Mid-Blue"<<endl;
+                        cout<<"9. Fight Blue"<<endl;
+                        cout<<"Enter the choice(1-9)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+                        
+}
