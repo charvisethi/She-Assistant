@@ -1,0 +1,14 @@
+int in_Shirts(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Empire Dresses"<<endl;
+                        cout<<"2. Drop-waist Dresses"<<endl;
+                        cout<<"3. A-line Dresses"<<endl;
+                        cout<<"4. Body-con Dresses"<<endl;
+                        cout<<"5. Fit & Flare Dresses"<<endl;
+                        cout<<"6. Pinafore Dresses"<<endl;
+                        cout<<"Enter the choice(1-6)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+                    }
