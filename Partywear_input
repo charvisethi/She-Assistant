@@ -1,0 +1,16 @@
+int in_Partywear(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Lace & Sheer"<<endl;
+                        cout<<"2. Sexy back & cuts"<<endl;
+                        cout<<"3. Black Tops"<<endl;
+                        cout<<"4. Embellished"<<endl;
+                        cout<<"5. Shoulder cuts"<<endl;
+                        cout<<"6. Velvets"<<endl;
+                        cout<<"7. Metallics & Shimmer"<<endl;
+                        cout<<"8. Strappy"<<endl;
+                        cout<<"Enter the choice(1-8)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+                        }
