@@ -1,0 +1,59 @@
+//Sort by ocassion 
+int in_Ocassion(){
+                
+                int o;
+                cout<<"Toggle list:"<<endl;
+                cout<<"1. Everyday"<<endl;
+                cout<<"2. Casual"<<endl;
+                cout<<"3. Indie+fusion"<<endl;
+                cout<<"4. Work"<<endl;
+                cout<<"5. Party"<<endl;
+                cout<<"6. Jumpsuits& Dungarees:Full length" <<endl;
+                cout<<"7. Jumpsuits& Dungarees:Rompers & Playsuits" <<endl;
+                cout<<"Enter the choice(1-7)"<<endl;
+                cin>>o;
+                Fltrs();
+                return o;
+                            }
+//Sort by style                            
+int in_Style(){
+            int a;
+            cout<<"Toggle list"<<endl;
+            cout<<"1. Lace Dresses"<<endl;
+            cout<<"2. Cotton Dresses"<<endl;
+            cout<<"3. Maxi Dresses"<<endl;
+            cout<<"4. Midi Dresses"<<endl;
+            cout<<"5. Short Dresses"<<endl;
+            cout<<"6. Floral Dresses"<<endl;
+            cout<<"7. Denim Dresses"<<endl;
+            cout<<"8. Shimmer and Shine Dresses"<<endl;
+            cout<<"9. Stripes & Polkas Dresses"<<endl;
+            cout<<"10. Shades of Red Dresses"<<endl;
+            cout<<"11. Black Dresses"<<endl;
+            cout<<"12. Strappy Dresses"<<endl;
+            cout<<"13. Volume Dresses"<<endl;
+            cout<<"Enter the choice(1-13)"<<endl;
+            cin>>a;
+            Fltrs();
+            return a;
+            }
+//Sort by type
+int in_Type(){
+                    int c;
+                    cout<<"Toggle list"<<endl;
+                    cout<<"1. Empire Dresses"<<endl;
+                    cout<<"2. Drop-waist Dresses"<<endl;
+                    cout<<"3. A-line Dresses"<<endl;
+                    cout<<"4. Body-con Dresses"<<endl;
+                    cout<<"5. Fit & Flare Dresses"<<endl;
+                    cout<<"6. Pinafore Dresses"<<endl;
+                    cout<<"7. Tshirts Dresses"<<endl;
+                    cout<<"8. Wrap Dresses"<<endl;
+                    cout<<"9. Stripes & Polkas Dresses"<<endl;
+                    cout<<"10. Sheath Dresses"<<endl;
+                    cout<<"11. Shirt Dresses"<<endl;
+                    cout<<"Enter the choice(1-11)"<<endl;
+                    cin>>c;
+                    Fltrs();
+                    return c;
+                    }
