@@ -1,0 +1,9 @@
+void Fltrs(){
+                
+                cout<<"Enter the size"<<endl;
+                cin>>size;
+                cout<<"Enter color preference"<<endl;
+                cin>>color;
+                cout<<"Enter the price appx"<<endl;
+                cin>>price;
+             }
