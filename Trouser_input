@@ -1,0 +1,29 @@
+int in_Tfit(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Skinny fit"<<endl;
+                        cout<<"2. Slim fit"<<endl;
+                        cout<<"3. Regular fit"<<endl;
+                        cout<<"4. Loose fit"<<endl;
+                        cout<<"5. Flared"<<endl;
+                        cout<<"6. Tapered"<<endl;
+                        cout<<"Enter the choice(1-6)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+}
+int in_Tc(){
+                        int d;
+                        cout<<"Toggle list"<<endl;
+                        cout<<"1. Linen"<<endl;
+                        cout<<"2. Cotton"<<endl;
+                        cout<<"3. Striped"<<endl;
+                        cout<<"4. High waist"<<endl;
+                        cout<<"5. Cropped"<<endl;
+                        cout<<"6. Printed"<<endl;
+                        cout<<"Enter the choice(1-6)"<<endl;
+                        cin>>d;
+                        Fltrs();
+                        return d;
+
+}
