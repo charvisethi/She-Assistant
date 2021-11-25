@@ -1,0 +1,88 @@
+void western(){                                                        
+                cout<<"What are you looking for?"<<endl;
+                cout<<"1. Dresses & Jumpsuits"<<endl;
+                cout<<"2. Tops,Tshirts & Shirts"<<endl;
+                cout<<"3. Jeans & Jeggings"<<endl;
+                cout<<"4. Trousers"<<endl;
+                cout<<"5. Skirts"<<endl;
+                cout<<"6. Shorts"<<endl;
+                cout<<"Enter the choice(1-6)"<<endl;
+                cin>>ch;
+                switch(ch){
+                            case 1: cout<<"How do you wanna filter what you're looking for:"<<endl;
+                                    cout<<"1. By Ocassion"<<endl;
+                                    cout<<"2. By Style"<<endl;
+                                    cout<<"3. By Type"<<endl;
+                                    cout<<"Enter the choice(1-3)"<<endl;
+                                    cin>>c[1];
+                                    switch(c[1]){
+                                                case 1: p[1]=in_Ocassion();
+                                                        ot_Ocassion();
+                                                        break;
+                                                case 2: p[2]=in_Style();
+                                                        ot_Style();
+                                                        break;
+                                                case 3: p[3]=in_Type();
+                                                        ot_Type();
+                                                        break;
+                                                default: cout<<"Wrong choice"<<endl;
+
+                                    }
+                                    break;
+                            case 2: cout<<"What do you wanna buy?"<<endl;
+                                    cout<<"1. Tops"<<endl;
+                                    cout<<"2. Tshirts"<<endl;
+                                    cout<<"3. Shirts"<<endl;
+                                    cout<<"4. Partywear"<<endl;
+                                    cout<<"Enter the choice(1-4)"<<endl;
+                                    cin>>c[2];
+                                    switch(c[2]){
+                                                case 1: p[4]=in_Tops();
+                                                        break;
+                                                case 2: p[5]=in_Tshirts();
+                                                        break;
+                                                case 3: p[6]=in_Shirts();
+                                                        break;
+                                                case 4: p[7]=in_Partywear();
+                                                        break;
+                                                default: cout<<"Wrong choice"<<endl;
+                                                  }
+                                    break;
+                            case 3:cout<<"Search by:"<<endl;
+                                   cout<<"1. Perfect fit"<<endl;
+                                   cout<<"2. Cool collection"<<endl;
+                                   cout<<"3. Color pallette"<<endl;
+                                   cout<<"4. Rise-filter"<<endl;
+                                   cin>>c[3];
+                                   switch(c[3]){
+                                                case 1: p[8]=in_Pfit();
+                                                        break;
+                                                case 2: p[9]=in_Cc();
+                                                        break;
+                                                case 3: p[10]=in_Color();
+                                                        break;
+                                                case 4: p[11]=in_Rise();
+                                                        break;
+                                                default: cout<<"Wrong choice"<<endl;
+                                                  }
+                                    break;
+                            case 4: cout<<"Sort by:"<<endl;
+                                    cout<<"1. By fit"<<endl;
+                                    cout<<"2. Variety of collections"<<endl;
+                                    cin>>c[4];
+                                    switch(c[4]){
+                                                    case 1:p[9]=in_Tfit();
+                                                            break;
+                                                    case 2:p[10]=in_Tc();
+                                                            break;
+                                                    default: cout<<"Wrong choice"<<endl;
+
+                                                }
+                            case 5: Fltrs();
+                                    break;
+                            case 6: Fltrs();
+                                    break;
+                        }                                           
+
+
+                }                                                   
