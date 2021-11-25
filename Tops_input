@@ -1,0 +1,18 @@
+int in_Tops(){
+                    int d;
+                    cout<<"Toggle list"<<endl;
+                    cout<<"1. Boxy"<<endl;
+                    cout<<"2. Solids"<<endl;
+                    cout<<"3. Stripes & Checks"<<endl;
+                    cout<<"4. Ruffles"<<endl;
+                    cout<<"5. Smocked"<<endl;
+                    cout<<"6. Florals"<<endl;
+                    cout<<"7. Crop Tops"<<endl;
+                    cout<<"8. Denims"<<endl;
+                    cout<<"9. Ethnic motifs"<<endl;
+                    cout<<"10. Color blocking"<<endl;
+                    cout<<"Enter the choice(1-10)"<<endl;
+                    cin>>a;
+                    Fltrs();
+                    return a;
+                    }
