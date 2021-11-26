@@ -1,5 +1,5 @@
 int ot_Ocassion(){                                                                   //ocassion done style type yet to be made
-                    int s[100],t[60];
+                    char s[100],t[60];
   switch(p[1]){
             case 1: 
                     s[0]=strcmp(size,"XS");
