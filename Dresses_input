@@ -1,4 +1,4 @@
-//Sort by ocassion 
+//Ocassion Menu 
 int in_Ocassion(){
                 
                 int o;
@@ -15,7 +15,7 @@ int in_Ocassion(){
                 Fltrs();
                 return o;
                             }
-//Sort by style                            
+//Style Menu                            
 int in_Style(){
             int a;
             cout<<"Toggle list"<<endl;
@@ -37,7 +37,7 @@ int in_Style(){
             Fltrs();
             return a;
             }
-//Sort by type
+//Type Menu
 int in_Type(){
                     int c;
                     cout<<"Toggle list"<<endl;
