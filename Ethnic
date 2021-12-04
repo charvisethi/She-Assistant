@@ -1,0 +1,158 @@
+void ethnics(){                                                        
+                cout<<"What are you looking for?"<<endl;
+                cout<<"1. Kurtas"<<endl;
+                cout<<"2. Kurta sets"<<endl;
+                cout<<"3. Sarees"<<endl;
+                cout<<"4. Fusion Dresses"<<endl;
+                cout<<"5. Ethnic tops"<<endl;
+                cout<<"6. Lehenga cholis"<<endl;
+                cout<<"7. Ethnic Bottoms"<<endl;
+                cout<<"8. Dupattas and Shawls"<<endl;
+                cout<<"9. Jackets and waistcoats"<<endl;
+                cout<<"Enter the choice(1-9)"<<endl;
+                cin>>ch;
+                switch(ch){
+                            case 1: cout<<"Which type of kurta are you looking for?"<<endl;
+                                    cout<<"1. Anarkali Kurtas"<<endl;
+                                    cout<<"2. Angrakha Kurtas"<<endl;
+                                    cout<<"3. White Kurtas"<<endl;
+                                    cout<<"4. Maternity collection"<<endl;
+                                    cout<<"Enter the choice(1-4)"<<endl;
+                                    cin>>c[5];
+                                    switch(c[5]){
+                                                case 1: p[11]=Fltrs();
+                                                        ot_Anarkali();
+                                                        break;
+                                                case 2: p[12]=Fltrs();
+                                                        ot_Angrakha();
+                                                        break;
+                                                case 3: p[13]=Fltrs();
+                                                        ot_white();
+                                                        break;
+                                                case 4: p[14]=Fltrs();
+                                                        ot_Maternity();
+                                                        break;        
+                                                default: cout<<"Wrong choice"<<endl;
+
+                                    }
+                                    break;
+                            case 2: cout<<"What type of kurta sets are you looking for?"<<endl;
+                                    cout<<"1. Pure Cotton"<<endl;
+                                    cout<<"2. Art Silk"<<endl;
+                                    cout<<"3. Crepe"<<endl;
+                                    cout<<"4. Pure Silk"<<endl;
+                                    cout<<"5. Chandheri"<<endl;
+                                    cout<<"6. Shantoon"<<endl;
+                                    cout<<"7. Polyester"<<endl;
+                                    cout<<"8. Viscose Rayon"<<endl;
+                                    cout<<"9. Satin"<<endl;
+                                    cout<<"Enter the choice(1-9)"<<endl;
+                                    cin>>c[6];
+                                    switch(c[6]){
+                                                case 1: p[15]=Fltrs();
+                                                        ot_Pcotton();
+                                                        break;
+                                                case 2: p[16]=Fltrs();
+                                                        ot_artsilk();
+                                                        break;
+                                                case 3: p[17]=Fltrs();
+                                                        ot_crepe();
+                                                        break;
+                                                case 4: p[18]=Fltrs();
+                                                        ot_puresilk();
+                                                        break;   
+                                                case 5: p[19]=Fltrs();
+                                                        ot_chandheri();
+                                                        break;
+                                                case 6: p[20]=Fltrs();
+                                                        ot_shantoon();
+                                                        break;
+                                                case 7: p[21]=Fltrs();
+                                                        ot_polyester();
+                                                        break;
+                                                case 8: p[22]=Fltrs();
+                                                        ot_viscoserayon();
+                                                        break;
+                                                case 9: p[23]=Fltrs();
+                                                        ot_satin();
+                                                        break;                  
+                                                default: cout<<"Wrong choice"<<endl;
+
+                                    }
+                                    break;
+                            case 3: cout<<"What type of Sarees are you looking for?"<<endl;
+                                    cout<<"1. Ready to wear"<<endl;
+                                    cout<<"2. Net"<<endl;
+                                    cout<<"3. Satin"<<endl;
+                                    cout<<"4. Ruffle sarees"<<endl;
+                                    cout<<"5. Half sarees"<<endl;
+                                    cout<<"6. Bling"<<endl;
+                                    cout<<"7. Pretty Florals"<<endl;
+                                    cout<<"8. Heirloom"<<endl;
+                                    cout<<"9. Stripes"<<endl;
+                                    cout<<"Enter the choice(1-9)"<<endl;
+                                    cin>>c[7];
+                                    switch(c[7]){
+                                                case 1: p[15]=Fltrs();
+                                                        ot_Pcotton();
+                                                        break;
+                                                case 2: p[16]=Fltrs();
+                                                        ot_artsilk();
+                                                        break;
+                                                case 3: p[17]=Fltrs();
+                                                        ot_crepe();
+                                                        break;
+                                                case 4: p[18]=Fltrs();
+                                                        ot_puresilk();
+                                                        break;   
+                                                case 5: p[19]=Fltrs();
+                                                        ot_chandheri();
+                                                        break;
+                                                case 6: p[20]=Fltrs();
+                                                        ot_shantoon();
+                                                        break;
+                                                case 7: p[21]=Fltrs();
+                                                        ot_polyester();
+                                                        break;
+                                                case 8: p[22]=Fltrs();
+                                                        ot_viscoserayon();
+                                                        break;
+                                                case 9: p[23]=Fltrs();
+                                                        ot_satin();
+                                                        break;                  
+                                                default: cout<<"Wrong choice"<<endl;
+                                                        }
+                                    break;
+                            case 4: Fltrs();
+                                    ot_fusion();
+                                    break;
+                            case 5: Fltrs();
+                                    etops();
+                                    break;
+                            case 6: Fltrs();
+                                    lehenga();
+                                    break;
+                            case 7: cout<<"Which type of ethnic Bottoms are you looking for?"<<endl;
+                                    cout<<"1. Plazzos & Trousers"<<endl;
+                                    cout<<"2. Skirts"<<endl;
+                                    cout<<"Enter the choice(1-2)"<<endl;
+                                    cin>>c[8];
+                                    switch(c[8]){
+                                                case 1: p[24]=Fltrs();
+                                                        ot_Plazztrou();
+                                                        break;
+                                                case 2: p[25]=Fltrs();
+                                                        ot_Skirts();
+                                                        break;       
+                                                default: cout<<"Wrong choice"<<endl;
+                                    }                                    
+                                    break;
+                            case 8: Fltrs();
+                                    dupattas();
+                                    break;
+                            case 9: Fltrs();
+                                    jackets();
+                                    break;
+                           default: cout<<"Wrong choice"<<endl;                           
+                            }
+                        }
