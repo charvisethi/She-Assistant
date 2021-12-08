@@ -1,126 +1,109 @@
 int dupattas(){
   int s[100], t[60];
                //XS, Black, Price Range
-                s[0]=strcmp(size,"XS");
                 t[0]=strcmp(color,"Black");
-                if((s[0]==1) && (price<=500) && (t[0]==1)){
+                if(((price<=500) && (t[0]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[1]=strcmp(size,"XS");
                 t[1]=strcmp(color,"Black");
-                if((s[1]==1) && (price<=1000 && price>500) && (t[1]==1)){
+                if((price<=1000 && price>500) && (t[1]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[2]=strcmp(size,"XS");
                 t[2]=strcmp(color,"Black");
-                if((s[2]==1) && (price<=2000 && price>1000) && (t[2]==1)){
+                if((price<=2000 && price>1000) && (t[2]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[3]=strcmp(size,"XS");
                 t[3]=strcmp(color,"Black");
-                if((s[3]==1) && (price>2000) && (t[3]==1)){
+                if((price>2000) && (t[3]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
                 //XS, Blue, Price Range
-                s[4]=strcmp(size,"XS");
                 t[4]=strcmp(color,"Blue");
-                if((s[4]==1) && (price<=500) && (t[4]==1)){
+                if((price<=500) && (t[4]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[5]=strcmp(size,"XS");
                 t[5]=strcmp(color,"Blue");
-                if((s[5]==1) && (price<=1000 && price>500) && (t[5]==1)){
+                if((price<=1000 && price>500) && (t[5]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[6]=strcmp(size,"XS");
                 t[6]=strcmp(color,"Blue");
-                if((s[6]==1) && (price<=2000 && price>1000) && (t[6]==1)){
+                if((price<=2000 && price>1000) && (t[6]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[7]=strcmp(size,"XS");
                 t[7]=strcmp(color,"Blue");
-                if((s[7]==1) && (price>2000) && (t[7]==1)){
+                if((price>2000) && (t[7]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
                 //XS, Red, Price Range
-                s[8]=strcmp(size,"XS");
                 t[8]=strcmp(color,"Red");
-                if((s[8]==1) && (price<=500) && (t[8]==1)){
+                if((price<=500) && (t[8]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[9]=strcmp(size,"XS");
                 t[9]=strcmp(color,"Red");
-                if((s[9]==1) && (price<=1000 && price>500) && (t[9]==1)){
+                if((price<=1000 && price>500) && (t[9]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[10]=strcmp(size,"XS");
                 t[10]=strcmp(color,"Red");
-                if((s[10]==1) && (price<=2000 && price>1000) && (t[10]==1)){
+                if((price<=2000 && price>1000) && (t[10]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[11]=strcmp(size,"XS");
                 t[11]=strcmp(color,"Red");
-                if((s[11]==1) && (price>2000) && (t[11]==1)){
+                if((price>2000) && (t[11]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
                 //XS, Price Range for Others
-                s[12]=strcmp(size,"XS");
-                if((s[12]==1) && (price<=500)){
+                if(price<=500){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[13]=strcmp(size,"XS");
-                if((s[13]==1) && (price<=1000 && price>500)){
+                if(price<=1000 && price>500){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[14]=strcmp(size,"XS");
-                if((s[14]==1) && (price<=2000 && price>1000)){
+                if(price<=2000 && price>1000){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[15]=strcmp(size,"XS");
-                if((s[15]==1) && (price>2000)){
+                if(price>2000){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
                 //S, Black, Price Range
-                s[16]=strcmp(size,"S");
                 t[16]=strcmp(color,"Black");
                 if((s[16]==1) && (price<=500) && (t[16]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
                     cout<<"Please refer to the following docs file"<<endl;
                     cout<<"https://docs.google.com/document/d/1locH8xI-nI9uGtcMsOO50FYqpbS4AwYuG3fVfemQ7dI/edit"<<endl;
                 }
-                s[17]=strcmp(size,"S");
+
                 t[17]=strcmp(color,"Black");
                 if((s[17]==1) && (price<=1000 && price>500) && (t[17]==1)){
                     cout<<"Hyperlinks of top options"<<endl;
